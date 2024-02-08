@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView2" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="URL Local "/>
+            <EditText android:id="@+id/etUrlLocal" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Local" android:ems="10" android:drawableLeft="@mipmap/hostname_local_small" android:inputType="textPersonName"/>
+            <TextView android:id="@+id/textView3" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="URL Remoto"/>
+            <EditText android:id="@+id/etUrlRemoto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Remoto" android:ems="10" android:drawableLeft="@mipmap/hostname_remoto_small" android:inputType="textPersonName"/>
+            <TextView android:id="@+id/textView4" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Printer Name"/>
+            <EditText android:id="@+id/etPrinter" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Printer Name Opcional" android:ems="10" android:drawableLeft="@mipmap/printer_small" android:inputType="textPersonName"/>
+            <CheckBox android:id="@+id/cbCache" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="Salvar cache data"/>
+            <CheckBox android:id="@+id/cbZoom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="Poder hacer Zoom"/>
+            <CheckBox android:id="@+id/cbBack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Nav. en la web "/>
+            <CheckBox android:id="@+id/cblocal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Cargar local url"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
